@@ -2,30 +2,31 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding-top: 80px;
+    background-color: softgray;
 }
 
 /* Header Styles */
 header {
-    background-color: #333; /* Header background color */
-    padding: 20px 0; /* Padding */
-    text-align: center; /* Center-align text */
-    width: 100%; /* Ensure full width */
-    position: fixed; /* Fixed positioning */
-    top: 0; /* Align to the top */
-    z-index: 1000; /* Ensure it's above other content */
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
-    margin: 0; /* Remove default margin */
-    color: #fff; /* Title text color */
-    font-size: 28px; /* Increase font size */
-    text-transform: uppercase; /* Convert to uppercase */
+    margin: 0;
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
 }
 
 /* Navigation Styles */
 nav {
-    float: right; /* Align to the right */
+    float: right;
 }
 
 nav ul {
@@ -36,83 +37,22 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 nav ul li a {
-    text-decoration:double;
-    color: black; /* Change to white */
+    text-decoration: none;
+    color: black;
 }
 
 nav ul li a:hover {
     color: #ff0000;
 }
-
-/* Add padding to the body to prevent content from being hidden behind the fixed header */
-body {
-    padding-top: 80px; /* Adjust as needed based on the header height */
-}
-
 /* Section Styles */
 section {
-    padding: 20px;
+    padding: 60px;
+    border-bottom: 4px solid hsl(0, 3%, 13%); 
 }
-
-/* Style each section with different backgrounds */
-#home {
-    background-color: #e6f7ff; /* Light blue background color */
-}
-
-#journal {
-    background-color: hsl(210, 81%, 79%);
-}
-
-#progress {
-    background-color: #236259;
-}
-
-#blog {
-    background-color: hsla(121, 87%, 50%, 0.18); 
-}
-
-#lab {
-    background-color: hsl(78, 29%, 27%);
-}
-
-#home {
-    background-color: hwb(258 61% 35%); /* You can change this color to any color you like */
-    color: white; /* Text color for contrast */
-    padding: 20px; /* Padding for content */
-}
-
-/* Aside Styles */
-aside {
-    background-color: #f2f2f2; /* Light gray background color */
-    padding: 10px;
-    margin-top: 20px;
-}
-
-aside h3 {
-    margin-top: 0;
-}
-
-aside ul {
-    padding-left: 20px;
-}
-
-aside ul li {
-    margin-bottom: 5px;
-}
-
-aside ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-aside ul li a:hover {
-    color: #ff0000;
-}
-
 /* Footer Styles */
 footer {
     background-color: #333;
